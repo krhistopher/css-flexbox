@@ -138,6 +138,7 @@ body {
 .cartao__perfil {
     color: #95999C;
     font-size: 0.9rem;
+    grid-column: span 2;
 }
 
 .cartao__info {
@@ -146,12 +147,12 @@ body {
     color: #95999C;
 }
 
-.cartao__info--tempo {
+.cartao__info--tempo::before {
     content: "\e90c";
     margin-right: 8px;
 }
 
-.cartao__info--visualizacao {
+.cartao__info--visualizacao::before {
     content: "\e90c";
     margin-right: 8px;
 }
@@ -174,6 +175,7 @@ body {
 
 .cartao__botao--destaque {
     width: 100%;
+    grid-column: span 2;
 }
 
 .cartao__botao--destaque::before {
